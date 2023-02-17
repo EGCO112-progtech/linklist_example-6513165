@@ -214,7 +214,7 @@ void reverseList( LLPtr currentPtr )
       puts( "List is empty.\n" );
    } // end if
    else { 
-      puts( "The List is:" );
+      puts( "The reverse list is:" );
         while ( currentPtr->nextPtr!= NULL ) {
          currentPtr = currentPtr->nextPtr;   
           }
